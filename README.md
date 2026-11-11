@@ -2,4 +2,7 @@
 ### INF247MWA
 ### 2024-1003691
 
-Laboratory 0:
+Laboratory 0:For this activity, we were introduced to Flutter and learned how to prepare it for mobile app development. We first downloaded the Flutter SDK and extracted it to the C: drive. After that, we added its bin folder to the PATH so we could run Flutter commands through the terminal. We also used flutter doctor -v to check if the installation was working properly and if there were still requirements that needed to be installed.
+Once the setup was finished, we moved on to creating our Flutter project. We made a folder using our surname followed by _mobprogAY2627, then chose the empty Flutter template. We also named the application using our surname followed by _mobprog and selected a device to run it. This gave us our first experience creating a project in Flutter and seeing how the development environment is organized.
+One thing I learned from this activity is that creating an application does not start with coding right away. We also need to make sure that the tools and settings are properly prepared first. Commands like flutter doctor -v are useful because they help us check if something is missing or needs to be fixed before running a project.
+We also had to update the README.md file with our discussion and upload the project to GitHub using Git commands. Through this, I became more familiar with how to save changes and keep project files in a repository. This activity also helped me understand why setting up Flutter properly is important before developing a mobile application, since we will be using these tools in our upcoming activities.
