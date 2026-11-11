@@ -1,0 +1,6 @@
+hs_err_pid*.log
+agsiwang_mobprog/android/local.properties
+agsiwang_mobprog/android/.gradle/
+agsiwang_mobprog/android/build/
+agsiwang_mobprog/build/
+agsiwang_mobprog/.dart_tool/
