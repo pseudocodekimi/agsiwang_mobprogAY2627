@@ -4,11 +4,12 @@ publish_to: 'none'
 version: 0.1.0+1
 
 environment:
-  sdk: ^3.13.7
+  sdk: ^3.13.4
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_screenutil: ^5.9.3
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +18,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/assets/images/loopy.jpg
+    - assets/assets/images/loopy2.jpg
+    - assets/assets/images/owl.jpg
+    - assets/assets/images/lily.jpg

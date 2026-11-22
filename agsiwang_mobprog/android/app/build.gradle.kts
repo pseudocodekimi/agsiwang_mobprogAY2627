@@ -29,12 +29,6 @@ android {
         versionName = flutter.versionName
     }
 
-    packaging {
-        jniLibs {
-            keepDebugSymbols += setOf("**/*.so")
-        }
-    }
-
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.

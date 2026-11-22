@@ -1,16 +1,30 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'screens/home_screen.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const AgsiwangFacebook());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class AgsiwangFacebook extends StatelessWidget {
+  const AgsiwangFacebook({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello, Kate Angel R. Agsiwang!'))),
+    return ScreenUtilInit(
+      designSize: const Size(412, 915),
+      minTextAdapt: true,
+      builder: (context, child) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Facebook Replication',
+        theme: ThemeData(
+          colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF1877F2)),
+          scaffoldBackgroundColor: const Color(0xFFF7F4FA),
+          useMaterial3: true,
+        ),
+        home: const HomeScreen(),
+      ),
     );
   }
 }
