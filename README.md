@@ -4,4 +4,4 @@
 
 Lab Activity 1: File Structuring and Design Pattern
 
-Discussion: The newsfeed card receives a `hasImage` value and an optional `imageUrl`. When `hasImage` is true, the card shows the supplied image or a neutral placeholder if no URL is available. When it is false, the image area is omitted. This keeps posts with and without images in the same reusable widget while allowing each post's content to determine its layout.
+Discussion: I retrieved the assets from the assets folder wherein I used those images saved in the folder and placed them inside the newsfeed_card.dart, particularly in the avatarAsset so that both users can have different profile pictures. The avatarAsset tag allowed me to change the profile pictures giving the hasImage a value so it outputs an actual image instead of a placeholder.
