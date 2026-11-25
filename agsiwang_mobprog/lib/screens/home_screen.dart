@@ -25,13 +25,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: FB_LIGHT_PRIMARY,
-        foregroundColor: FB_PRIMARY,
+        backgroundColor: fbLightPrimary,
+        foregroundColor: fbPrimary,
         elevation: 2,
         title: Text(
           'facebook',
           style: TextStyle(
-            color: FB_PRIMARY,
+            color: fbPrimary,
             fontSize: 25.sp,
             fontWeight: FontWeight.bold,
           ),
@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
           setState(() => _selectedIndex = index);
           _pageController.jumpToPage(index);
         },
-        selectedItemColor: FB_PRIMARY,
+        selectedItemColor: fbPrimary,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(

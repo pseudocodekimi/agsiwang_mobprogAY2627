@@ -38,11 +38,11 @@ class NewsFeedCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 22.r,
-                  backgroundColor: FB_LIGHT_PRIMARY,
+                  backgroundColor: fbLightPrimary,
                   backgroundImage:
                       avatarAsset == null ? null : AssetImage(avatarAsset!),
                   child: avatarAsset == null
-                      ? const Icon(Icons.person, color: FB_PRIMARY)
+                      ? const Icon(Icons.person, color: fbPrimary)
                       : null,
                 ),
                 SizedBox(width: 10.w),
@@ -81,12 +81,12 @@ class NewsFeedCard extends StatelessWidget {
             SizedBox(height: 8.h),
             Row(
               children: [
-                Icon(Icons.thumb_up, color: FB_DARK_PRIMARY, size: 18.sp),
+                Icon(Icons.thumb_up, color: fbDarkPrimary, size: 18.sp),
                 SizedBox(width: 5.w),
                 CustomText(
                   text: '$numOfLikes',
                   fontSize: 12,
-                  color: FB_DARK_PRIMARY,
+                  color: fbDarkPrimary,
                 ),
                 const Spacer(),
                 const CustomText(text: '0 comments', fontSize: 12, color: Colors.grey),
@@ -105,8 +105,8 @@ class NewsFeedCard extends StatelessWidget {
               children: [
                 CircleAvatar(
                   radius: 15.r,
-                  backgroundColor: FB_LIGHT_PRIMARY,
-                  child: Icon(Icons.person, size: 18.sp, color: FB_PRIMARY),
+                  backgroundColor: fbLightPrimary,
+                  child: Icon(Icons.person, size: 18.sp, color: fbPrimary),
                 ),
                 SizedBox(width: 8.w),
                 Expanded(
@@ -182,8 +182,8 @@ class _PostAction extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextButton.icon(
       onPressed: () {},
-      icon: Icon(icon, size: 18.sp, color: FB_DARK_PRIMARY),
-      label: CustomText(text: label, fontSize: 12, color: FB_DARK_PRIMARY),
+      icon: Icon(icon, size: 18.sp, color: fbDarkPrimary),
+      label: CustomText(text: label, fontSize: 12, color: fbDarkPrimary),
       style: TextButton.styleFrom(padding: EdgeInsets.symmetric(horizontal: 2.w)),
     );
   }
