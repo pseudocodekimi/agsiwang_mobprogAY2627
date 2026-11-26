@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 0.1.0+1
 
 environment:
-  sdk: ^3.13.7
+  sdk: ^3.13.4
 
 dependencies:
   flutter:
@@ -18,13 +18,14 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assets/assets/images
-    - assets/assets/icons
+    - assets/assets/images/loopy.jpg
+    - assets/assets/images/loopy2.jpg
+    - assets/assets/images/lily.jpg
   fonts:
     - family: Klavika
       fonts:
-        - asset: assets/fonts/KlavikaBoldBold.otf
+        - asset: assets/assets/fonts/KlavikaBoldBold.otf
     - family: Frutiger
       fonts:
-        - asset: assets/fonts/FrutigerLTStd-Roman.otf
+        - asset: assets/assets/fonts/FrutigerLTStd-Roman.otf
   uses-material-design: true

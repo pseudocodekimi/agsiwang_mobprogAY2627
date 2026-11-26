@@ -106,7 +106,9 @@ class NewsFeedCard extends StatelessWidget {
                 CircleAvatar(
                   radius: 15.r,
                   backgroundColor: fbLightPrimary,
-                  child: Icon(Icons.person, size: 18.sp, color: fbPrimary),
+                  backgroundImage: const AssetImage(
+                    'assets/assets/images/loopy.jpg',
+                  ),
                 ),
                 SizedBox(width: 8.w),
                 Expanded(
